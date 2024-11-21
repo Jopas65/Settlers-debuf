@@ -1,35 +1,11 @@
 [
     {
-		"name": "Hajduk",
-		"replaces": "Rifleman",
-	        "uniqueTo": "Serbia",
-		"unitType": "Gunpowder",
+	"name": "Settler",
+		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 36,
-		"cost": 60,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"uniques": ["Can move after attacking"],
-	        "promotions": ["Great Generals II"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Konjica",
-		"replaces": "Knight",
-		"uniqueTo": "Serbia",
-		"unitType": "Ranged Gunpowder",
-		"range": 2,
-		"movement": 4,
-		"strength": 20,
-		"rangedStrength": 20,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"obsoleteTech": "Replaceable Parts",
-		"requiredResource": "Horses",
-		"upgradesTo": "Great War Infantry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Logistics"],
-		"attackSound": "shot"
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [20] population"],
+		"hurryCostModifier": 20
 	}
 ]
