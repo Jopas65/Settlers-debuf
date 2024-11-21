@@ -19,7 +19,7 @@
         "[-25]% [Science] [in pupetted cities]", 
         "[-25]% [Culture] [in pupetted cities]",
         "[+20]% [Production] [in cities connected via railroad]"
-    },
+   
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
